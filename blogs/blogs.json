@@ -1,0 +1,21 @@
+{
+  "repo": "dorsata",
+  "feeds": [
+    {
+      "source": "https://dorsata.com/feed/",
+      "feed_url": "https://dorsata.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://dorsata.com",
+      "feed_url": "https://dorsata.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 3,
+  "fetched": "2026-07-25T15:00:33Z"
+}

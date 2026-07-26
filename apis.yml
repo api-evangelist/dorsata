@@ -1,9 +1,33 @@
 aid: dorsata
 name: Dorsata
-description: 'Dorsata is a company surfaced as a portfolio company of qed-investors and added to the API
-  Evangelist network as a stub for enrichment. Sector: healthtech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Dorsata is a women's health technology company based in Arlington, Virginia that
+  reimagines the electronic health record (EHR) experience for obstetrics and gynecology
+  providers, life sciences, and health plans. Its flagship Dorsata Prenatal platform
+  overlays a practice's existing EHR with an ACOG-aligned prenatal flowsheet and a
+  clinical rules engine that surfaces the right guidance at the right point of care,
+  improving diagnosis, treatment, and documentation while reducing physician burnout.
+  Additional products include Dorsata Insights, which gathers standardized real-world
+  clinical data from women's health providers (including populations historically
+  underrepresented in clinical studies), Dorsata Pathways, and an Adnexal Mass solution.
+  The platform serves 300+ practice sites and thousands of clinical users across roughly
+  20 states, documenting hundreds of thousands of pregnancies. Dorsata raised a $5.2M
+  Series A with participation from QED Investors, Women's Health USA, LabCorp, Fool
+  Ventures, and Gore Range Capital. This API Evangelist profile tracks Dorsata as a
+  healthtech company; the company exposes no public developer API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/dorsata/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://i0.wp.com/dorsata.com/wp-content/uploads/2019/03/Dorsata-Social-Media-Preview.jpg?fit=622%2C415&ssl=1
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +36,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Healthtech
+- Health
+- Electronic Health Records
+- EHR
+- Obstetrics
+- Women's Health
+- Prenatal
+- Clinical Data
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +56,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://dorsata.com
+  url: https://dorsata.com
+- type: Blog
+  url: https://dorsata.com/blog/
+- type: Support
+  url: https://dorsata.com/contact/
+- type: TermsOfService
+  url: https://dorsata.com/terms-conditions/
+- type: PrivacyPolicy
+  url: https://dorsata.com/privacy-policy/
+- type: GitHubOrganization
+  url: https://github.com/dorsata
+- type: Login
+  url: https://app.dorsata.com/login
+- type: About
+  url: https://dorsata.com/team/
+- type: Careers
+  url: https://dorsata.com/join-the-team/
+- type: DomainSecurity
+  url: security/dorsata-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
